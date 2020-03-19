@@ -4,7 +4,11 @@ class Dog
 
  def initialize(name)
    @name = name
+<<<<<<< HEAD
    @save = save
+=======
+   @@all << self 
+>>>>>>> 629b299e046a1d551df273086478eab647f40a87
   end
 
  def self.all
@@ -22,7 +26,11 @@ class Dog
 	end
 
  def save
+<<<<<<< HEAD
    @@all.push self
+=======
+   @all
+>>>>>>> 629b299e046a1d551df273086478eab647f40a87
  end
 
 end
